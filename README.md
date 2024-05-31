@@ -15,3 +15,4 @@ As an extra, I have added a simple directive that allows opening the selector wi
 
 ## DEMO
 
+Take a look: [https://angular-custom-select.vercel.app/landing](https://angular-selector-directive.vercel.app/landing)
