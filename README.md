@@ -2,6 +2,9 @@
 
 # Angular Selector Directive
 
+This project, for practice purposes, attempts to create a single directive that manages to add a complete selector of items to select between them using the keyboard and perform a function.
+In this case, the directive has been used to simulate choosing a profile image.
+
 ## Features
 
 ## DEMO
