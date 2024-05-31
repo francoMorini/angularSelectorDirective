@@ -1,0 +1,8 @@
+<div class="image-container">
+    <img [src]="avatar().image">
+</div>
+<div class="selector-container">
+    <div class="selector" displayWithKey="i" [moveControl]="items" (onSelect)="setAvatar($event)"></div>
+</div>
+<div class="name">{{avatar().name}}</div>
+<div class="username">&#64;{{avatar().username}}</div>

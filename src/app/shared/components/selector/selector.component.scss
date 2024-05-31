@@ -1,0 +1,19 @@
+.container {
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  border: 3px solid rgba(var(--tertiary-rgb), 0.15);
+  background-color: var(--background);
+  padding: 1.5rem;
+  gap: 1rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container::-webkit-scrollbar{
+  display: none;
+}

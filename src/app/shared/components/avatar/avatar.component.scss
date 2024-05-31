@@ -1,0 +1,38 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-container{
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 50rem;
+    outline: 3px solid var(--accent);
+    box-sizing: border-box;
+    margin: 1rem 0;
+    img{
+        width: 16rem;
+        height: 16rem;
+    }
+}
+.name{
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 1rem 0 0 0;
+}
+.username{
+    font-size: 0.85rem;
+    color: rgba(var(--black-rgb), 0.5);
+}
+.selector-container{
+    position: relative;
+    width: 100%;
+}
+.selector{
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 100%;
+    max-width: 40rem;
+    padding: 3rem;
+    h1{
+        margin: 0;
+        padding: 1rem 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-container{
+    padding: 3rem 0 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    gap: 3rem;
+}

@@ -1,0 +1,5 @@
+<div class="container">
+    @for(item of items; track $index){
+    <app-item id="item-{{$index}}" [track]="$index === itemFocused" [isFocused]="$index === itemFocused" [text]="item.text" [image]="item.image"></app-item>
+    }
+</div>

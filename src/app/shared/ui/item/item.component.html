@@ -1,0 +1,6 @@
+<div class="container" [ngClass]="{'focused': isFocused}">
+    @if(!!image){
+    <img [src]="image" [alt]="text">
+    }
+    <div>{{text}}</div>
+</div>
