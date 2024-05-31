@@ -9,7 +9,7 @@ As an extra, I have added a simple directive that allows opening the selector wi
 
 ## Features
 
-- Full control of the DOM
+- Full DOM control
 - Create and instance components programmatically
 - Directives
 
